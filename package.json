@@ -1,6 +1,6 @@
 {
   "name": "@mihanizm56/webpack-stream-watcher",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1-beta.1",
   "description": "webpack redux utils",
   "license": "MIT",
   "main": "lib/index.js",
@@ -18,7 +18,12 @@
     "release": "npm run commit && git push && npm publish --access=public",
     "beta": "npm run commit && git push && npm publish --tag beta --access=public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "colors": "1.4.0",
+    "dotenv": "8.2.0",
+    "ip": "1.1.5",
+    "ws": "7.3.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "commitizen": "4.0.4",
