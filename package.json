@@ -1,6 +1,6 @@
 {
   "name": "@mihanizm56/webpack-stream-watcher",
-  "version": "0.0.3",
+  "version": "0.0.4-beta",
   "description": "webpack redux utils",
   "license": "MIT",
   "main": "lib/index.js",
